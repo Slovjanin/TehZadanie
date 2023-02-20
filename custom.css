@@ -1,0 +1,35 @@
+body { padding-top: 45px; }
+.starter-template { padding: 35px 22px; }
+#logout{ display:none; }
+
+input:valid {
+    border-color: green;
+    color: green;
+    box-shadow: none;
+}
+input:invalid {
+    border-color: red;
+    color: red;
+    box-shadow: none;
+}
+input:focus:valid {
+    border-color: green;
+    color: green;
+    box-shadow: none;
+}
+input:focus:invalid {
+    border-color: red;
+    color: red;
+    box-shadow: none;
+}
+input:focus:required:valid {
+    border-color: green;
+    color: green;
+    box-shadow: none;
+}
+input:focus:required:invalid {
+    border-color: green;
+    color: green;
+    box-shadow: none;
+}
+
